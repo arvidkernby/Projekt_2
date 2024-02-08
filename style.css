@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+.grid-container {
+  display: grid;
+}
+
+h1 {
+  font-family: Irish Grover;
+}
+
+header {
+  text-align: center;
+  grid-row: 1;
+  font-size: 30px;
+}
+
+#Varukorg {
+  display: grid;
+  background-color: brown;
+}
+
+.Produktbilder {
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  width: 300px;
+}
