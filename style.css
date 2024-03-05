@@ -24,12 +24,18 @@ header {
   grid-row: 1;
 }
 
+figure {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: block;
+}
+
 #Produktbild1 {
   display: grid;
   grid-column: 1;
   grid-row: 2;
   border: 2px solid black;
-  margin-bottom: 100px;
+
 }
 
 #Produktbild2 {
@@ -50,8 +56,6 @@ header {
   display: grid;
   grid-column: 4;
   grid-row: 2;
-  height: 350px;
-  width: 225px;
   border: 2px solid black;
 }
 
@@ -59,8 +63,8 @@ header {
   display: grid;
   grid-column: 1;
   grid-row: 3;
-  height: 350px;
-  width: 225px;
+  height: 200px;
+  width: 200px;
   border: 2px solid black;
 }
 
@@ -68,8 +72,8 @@ header {
   display: grid;
   grid-column: 2;
   grid-row: 3;
-  height: 350px;
-  width: 225px;
+  height: 200px;
+  width: 200px;
   border: 2px solid black;
 }
 
@@ -77,8 +81,8 @@ header {
   display: grid;
   grid-column: 3;
   grid-row: 3;
-  height: 350px;
-  width: 225px;
+  height: 200px;
+  width: 200px;
   border: 2px solid black;
 }
 
@@ -86,8 +90,8 @@ header {
   display: grid;
   grid-column: 4;
   grid-row: 3;
-  height: 350px;
-  width: 225px;
+  height: 200px;
+  width: 200px;
   border: 2px solid black;
 }
 
@@ -103,7 +107,6 @@ header {
 h3 {
   text-align: center;
   color: #5A1C1C;
-
 }
 
 .flex-container {
@@ -113,3 +116,10 @@ h3 {
   padding-bottom: 100%;
   height: 400px;
 }
+
+/*
+p {
+  font-family: Irish Grover;
+  font-size: 20px;
+}
+*/
